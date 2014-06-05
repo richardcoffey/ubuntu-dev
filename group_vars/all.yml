@@ -1,0 +1,9 @@
+# user
+username: pcoffey
+
+# git
+gitEmail: 'patrickcoffey48@gmail.com'
+gitUsername: 'Patrick Coffey'
+
+# mariadb
+rootPassword: 'root'

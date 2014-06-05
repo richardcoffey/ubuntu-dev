@@ -1,0 +1,20 @@
+---
+- name: Ubuntu Development Environment
+  hosts: 127.0.0.1
+  user: pcoffey
+  sudo: yes
+
+  vars_files:
+    - group_vars/all.yml
+
+  roles:
+    - apache2
+      #- chromium
+      #- dotfiles
+      #- git
+      #- gnome-shell
+      #- mariadb
+      #- nodejs
+      #- php
+      #- terminal
+      #- zsh
