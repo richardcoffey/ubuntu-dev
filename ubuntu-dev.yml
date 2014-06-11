@@ -8,13 +8,6 @@
     - group_vars/all.yml
 
   roles:
-    - apache2
-      #- chromium
-      #- dotfiles
-      #- git
-      #- gnome-shell
-      #- mariadb
-      #- nodejs
-      #- php
-      #- terminal
-      #- zsh
+    - web
+    - mysql
+    - php
