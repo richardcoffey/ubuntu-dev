@@ -1,0 +1,5 @@
+---
+
+- name: Vim | Install vim
+  apt: pkg=vim state=installed
+  tags: editor
