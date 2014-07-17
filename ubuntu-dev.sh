@@ -2,7 +2,7 @@
 sudo apt-get install git
 
 # Clone ubuntu-dev repo
-git clone https://github.com/patrickocoffeyo/ubuntu-dev.git ~/ubuntu-dev
+git clone https://github.com/patrickocoffeyo/ubuntu-dev.git ~/.ubuntu-dev
 
 # Install ansible
 add-apt-repository ppa:rquillo/ansible
