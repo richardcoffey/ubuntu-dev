@@ -32,5 +32,5 @@
 - name: ZSH | Set ZSH as the default shell
   user: name={{ ansible_ssh_user }} shell=/usr/bin/zsh
 
-- name: Terminal | Make Terminal have pretty colors
+- name: Terminal | Make Terminal has pretty colors
   command: bash /home/{{ ansible_ssh_user }}/.dotfiles/gnome-terminal-theme.sh

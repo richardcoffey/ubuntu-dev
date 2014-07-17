@@ -11,5 +11,4 @@
 
 - name: Apache2 | Remove default configuration
   file: state=absent path=/etc/apache2/sites-enabled/000-default
-  notify:
-    - Restart apache
+  notify: Restart apache

@@ -4,9 +4,6 @@
   user: pcoffey
   sudo: yes
 
-  vars_files:
-    - group_vars/all.yml
-
   roles:
     - web
     - mysql
