@@ -6,6 +6,7 @@
 
   roles:
     - web
+    - nodejs
     - mysql
     - php
     - dotfiles
