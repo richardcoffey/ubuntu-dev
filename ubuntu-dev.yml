@@ -1,4 +1,5 @@
 ---
+
 - name: Ubuntu Development Environment
   hosts: 127.0.0.1
   user: pcoffey
@@ -9,6 +10,7 @@
     - nodejs
     - mysql
     - php
+    - frontend
     - dotfiles
     - browsers
     - misc
