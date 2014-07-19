@@ -45,6 +45,9 @@ The following roles exists within this playbook:
   - meteor
   - meteorite
 
+###drupal
+  - drush
+
 ###frontend
   - sass
   - compass
