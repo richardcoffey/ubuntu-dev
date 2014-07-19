@@ -35,6 +35,7 @@ The following roles exists within this playbook:
   - php5-xdebug
   - php5-mysql
   - php5-json
+  - composer
 
 ###mysql
   - mysql

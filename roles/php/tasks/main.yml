@@ -22,8 +22,17 @@
 - name: PHP5 | Update pear packages
   command: pear upgrade-all
 
-- name: PHP | Set pear auto-discover
+- name: PHP5 | Set pear auto-discover
   command: pear config-set auto_discover 1
+
+- name: Composer | install composer
+  shell: curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin creates=/usr/local/bin/composer
+
+- name: Composer | composer.phar to composer
+  shell: mv /usr/local/bin/composer.phar /usr/local/bin/composer creates=/usr/local/bin/composer
+
+- name: Composer | composer executable
+  shell: chmod a+x /usr/local/bin/composer
 
 - name: PHP5 | Configuration /var/www/html/index.php
   template: src=var-www-html-index.php dest=/var/www/html/index.php mode=0644
