@@ -1,8 +1,5 @@
 ---
 
-- name: CSS | Install rubygems package
-  action: apt pkg=rubygems state=installed
-
 - name: CSS | Install SASS
   action: command gem install sass creates=/usr/local/bin/sass
 
