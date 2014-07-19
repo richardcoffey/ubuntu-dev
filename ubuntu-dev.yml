@@ -8,8 +8,9 @@
   roles:
     - web
     - nodejs
-    - mysql
+    - ruby
     - php
+    - mysql
     - frontend
     - dotfiles
     - browsers
