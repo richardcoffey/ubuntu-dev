@@ -40,6 +40,10 @@ The following roles exists within this playbook:
   - mysql
   - MysqlWorkBench
 
+###meteor
+  - meteor
+  - meteorite
+
 ###frontend
   - sass
   - compass
@@ -61,10 +65,6 @@ The following roles exists within this playbook:
   - zoom (soon)
 
 ##Upcoming roles
-
-###meteor
-  - meteor
-  - meteorite
 
 ###mongodb
   - mongodb
