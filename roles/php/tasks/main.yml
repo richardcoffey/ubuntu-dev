@@ -13,7 +13,6 @@
     - php5-xdebug
     - php5-mysql
     - php5-json
-  tags: php5
   notify: Restart apache
 
 - name: PHP5 | Update pear channels
