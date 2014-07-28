@@ -4,7 +4,10 @@
   action: apt pkg=python-software-properties state=installed
 
 - name: Node.js | Add the node.js repository
-  action: command add-apt-repository -y ppa:chris-lea/node.js creates=/etc/apt/sources.list.d/chris-lea-node_js-precise.list update_cache=yes
+  action: command add-apt-repository -y ppa:chris-lea/node.js creates=/etc/apt/sources.list.d/chris-lea-node_js-precise.list
+
+- name: Node.js | Update cache
+  action: apt update-cache=yes
 
 - name: Node.js | Install nodejs and npm
   action: apt pkg=nodejs state=installed

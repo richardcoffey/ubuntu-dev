@@ -8,3 +8,6 @@
 
 - name: Spotify | Install spotify
   apt: name=spotify-client state=latest
+
+- name: Htop | Install htop
+  apt: name=htop state=latest
