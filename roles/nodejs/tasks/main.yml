@@ -3,11 +3,11 @@
 - name: Node.js | Install prerequisites
   action: apt pkg=python-software-properties state=installed
 
-- name: Node.js | Add the node.js repository
+- name: Node.js | Add the node.js PPA
   action: command add-apt-repository -y ppa:chris-lea/node.js creates=/etc/apt/sources.list.d/chris-lea-node_js-precise.list
 
-- name: Node.js | Update cache
+- name: Node.js | Update the apt cache for the new repository
   action: apt update-cache=yes
 
-- name: Node.js | Install nodejs and npm
+- name: Node.js | Install node
   action: apt pkg=nodejs state=installed

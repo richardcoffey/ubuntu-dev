@@ -11,3 +11,9 @@
 
 - name: Htop | Install htop
   apt: name=htop state=latest
+
+- name: Wine | Add repository
+  apt_repository: repo='ppa:ubuntu-wine/ppa' state=present update_cache=yes
+
+- name: Wine | Install wine
+  apt: name=wine state=latest
