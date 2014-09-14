@@ -17,3 +17,9 @@
 
 - name: Wine | Install wine
   apt: name=wine state=latest
+
+- name: sshfs | Install sshfs
+  apt: name=sshfs state=latest
+
+- name: sshfs | Load sshfs to kernal
+  command: modprobe fuse
