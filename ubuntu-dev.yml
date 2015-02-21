@@ -15,8 +15,6 @@
     - meteor
     - go
     - redis
-    - drupal
-    - frontend
     - dotfiles
     - browsers
     - vm
